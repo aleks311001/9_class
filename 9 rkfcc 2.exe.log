@@ -1,0 +1,272 @@
+
+--------------------------------------------------
+TXLib сообщает:
+
+Программа: C:\Users\User\Documents\GitHub\9_class\9 rkfcc 2.exe,
+
+ВНЕЗАПНО: Ю-ху! Переполнение стека!
+
+Исключение EXCEPTION_STACK_OVERFLOW (0xC00000FD) при выполнении кода по адресу 0x00427793. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции _set_se_translator() вы можете сами обработать эту ошибку.
+
+#1: TXLib [Ver: 00173a, Rev: 105], Instance: 0x008B8BA0 (32-bit), Flags: CMdRet, Thread: 0x964 (Main). 
+
+--------------------------------------------------
+Трассировка стека:
+
+# 0 0x0040C026 in C:\Users\User\Documents\GitHub\9_class\9 rkfcc 2.exe
+# 1 0x0040BD78 in C:\Users\User\Documents\GitHub\9_class\9 rkfcc 2.exe
+# 2 0x77A462D9 in C:\Windows\SysWOW64\ntdll.dll!RtlGetProcessHeaps
+# 3 0x77A2B64D in C:\Windows\SysWOW64\ntdll.dll!RtlCaptureContext
+# 4 0x77A2B30F in C:\Windows\SysWOW64\ntdll.dll!LdrRemoveLoadAsDataTable
+# 5 0x779E012E in C:\Windows\SysWOW64\ntdll.dll!KiUserExceptionDispatcher
+# 6 0x0041B5FB in C:\Users\User\Documents\GitHub\9_class\9 rkfcc 2.exe
+# 7 0x00401278 in C:\Users\User\Documents\GitHub\9_class\9 rkfcc 2.exe
+# 8 0x004012A0 in C:\Users\User\Documents\GitHub\9_class\9 rkfcc 2.exe
+# 9 0x77A09EED in C:\Windows\SysWOW64\ntdll.dll!RtlInitializeExceptionChain
+#10 0x77A09EC0 in C:\Windows\SysWOW64\ntdll.dll!RtlInitializeExceptionChain
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library) - TXLib [Ver: 00173a, Rev: 105]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Users\User\Desktop\TX\TXLib.h
+Compiled:	Sep 13 2016 09:31:28, DEBUG, GNU g++ 4.8.1, std=201103L
+Started:	Sep 13 2016 09:31:32
+
+Run file:	C:\Users\User\Documents\GitHub\9_class\9 rkfcc 2.exe
+Directory:	C:\Users\User\Documents\GitHub\9_class
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib сообщает:
+
+Программа: C:\Users\User\Documents\GitHub\9_class\9 rkfcc 2.exe,
+
+ВНЕЗАПНО: Ю-ху! Переполнение стека!
+
+Исключение EXCEPTION_STACK_OVERFLOW (0xC00000FD) при выполнении кода по адресу 0x00427793. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции _set_se_translator() вы можете сами обработать эту ошибку.
+
+#1: TXLib [Ver: 00173a, Rev: 105], Instance: 0x008B8BA0 (32-bit), Flags: CMdRet, Thread: 0x468 (Main). 
+
+--------------------------------------------------
+Трассировка стека:
+
+# 0 0x0040C026 in C:\Users\User\Documents\GitHub\9_class\9 rkfcc 2.exe
+# 1 0x0040BD78 in C:\Users\User\Documents\GitHub\9_class\9 rkfcc 2.exe
+# 2 0x77A462D9 in C:\Windows\SysWOW64\ntdll.dll!RtlGetProcessHeaps
+# 3 0x77A2B64D in C:\Windows\SysWOW64\ntdll.dll!RtlCaptureContext
+# 4 0x77A2B30F in C:\Windows\SysWOW64\ntdll.dll!LdrRemoveLoadAsDataTable
+# 5 0x779E012E in C:\Windows\SysWOW64\ntdll.dll!KiUserExceptionDispatcher
+# 6 0x0041B5FB in C:\Users\User\Documents\GitHub\9_class\9 rkfcc 2.exe
+# 7 0x00401278 in C:\Users\User\Documents\GitHub\9_class\9 rkfcc 2.exe
+# 8 0x004012A0 in C:\Users\User\Documents\GitHub\9_class\9 rkfcc 2.exe
+# 9 0x77A09EED in C:\Windows\SysWOW64\ntdll.dll!RtlInitializeExceptionChain
+#10 0x77A09EC0 in C:\Windows\SysWOW64\ntdll.dll!RtlInitializeExceptionChain
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library) - TXLib [Ver: 00173a, Rev: 105]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Users\User\Desktop\TX\TXLib.h
+Compiled:	Sep 13 2016 09:31:39, DEBUG, GNU g++ 4.8.1, std=201103L
+Started:	Sep 13 2016 09:31:44
+
+Run file:	C:\Users\User\Documents\GitHub\9_class\9 rkfcc 2.exe
+Directory:	C:\Users\User\Documents\GitHub\9_class
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib сообщает:
+
+Программа: C:\Users\User\Documents\GitHub\9_class\9 rkfcc 2.exe,
+
+ВНЕЗАПНО: signal (8, 0x00): SIGFPE: Грубая ошибка в вычислениях. 
+
+Недопустимая операция с плавающей точкой.
+
+Исключение EXCEPTION_FLT_INVALID_OPERATION (0xC0000090) при выполнении кода по адресу 0x00412F86. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#1: TXLib [Ver: 00173a, Rev: 105], Instance: 0x005AA7A0 (32-bit), Flags: CMdRet, Thread: 0x16E4 (Main). 
+
+--------------------------------------------------
+Трассировка стека:
+
+# 0 0x0040C026 in C:\Users\User\Documents\GitHub\9_class\9 rkfcc 2.exe
+# 1 0x0040BD78 in C:\Users\User\Documents\GitHub\9_class\9 rkfcc 2.exe
+# 2 0x77A462D9 in C:\Windows\SysWOW64\ntdll.dll!RtlGetProcessHeaps
+# 3 0x77A2B64D in C:\Windows\SysWOW64\ntdll.dll!RtlCaptureContext
+# 4 0x77A2B30F in C:\Windows\SysWOW64\ntdll.dll!LdrRemoveLoadAsDataTable
+# 5 0x779E012E in C:\Windows\SysWOW64\ntdll.dll!KiUserExceptionDispatcher
+# 6 0x0041307F in C:\Users\User\Documents\GitHub\9_class\9 rkfcc 2.exe
+# 7 0x0041BC5C in C:\Users\User\Documents\GitHub\9_class\9 rkfcc 2.exe
+# 8 0x0041B6EA in C:\Users\User\Documents\GitHub\9_class\9 rkfcc 2.exe
+# 9 0x0041B5FB in C:\Users\User\Documents\GitHub\9_class\9 rkfcc 2.exe
+#10 0x00401278 in C:\Users\User\Documents\GitHub\9_class\9 rkfcc 2.exe
+#11 0x004012A0 in C:\Users\User\Documents\GitHub\9_class\9 rkfcc 2.exe
+#12 0x77A09EED in C:\Windows\SysWOW64\ntdll.dll!RtlInitializeExceptionChain
+#13 0x77A09EC0 in C:\Windows\SysWOW64\ntdll.dll!RtlInitializeExceptionChain
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library) - TXLib [Ver: 00173a, Rev: 105]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Users\User\Desktop\TX\TXLib.h
+Compiled:	Sep 13 2016 10:03:23, DEBUG, GNU g++ 4.8.1, std=201103L
+Started:	Sep 13 2016 10:03:28
+
+Run file:	C:\Users\User\Documents\GitHub\9_class\9 rkfcc 2.exe
+Directory:	C:\Users\User\Documents\GitHub\9_class
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib сообщает:
+
+Программа: C:\Users\User\Documents\GitHub\9_class\9 rkfcc 2.exe, файл: C:\Users\User\Desktop\TX\TXLib.h, строка: 7023, функция: bool {anonymous}::TX::_txCanvas_OnDESTROY(HWND),
+
+Сообщение: Cannot lock GDI to free resources
+
+#2: TXLib [Ver: 00173a, Rev: 105], Instance: 0x005AA7A0 (32-bit), Flags: CMdrEt, Thread: 0xDBC (Canvas). 
+
+--------------------------------------------------
+Трассировка стека:
+
+# 0 0x0040C026 in C:\Users\User\Documents\GitHub\9_class\9 rkfcc 2.exe
+# 1 0x0040BD78 in C:\Users\User\Documents\GitHub\9_class\9 rkfcc 2.exe
+# 2 0x77A462D9 in C:\Windows\SysWOW64\ntdll.dll!RtlGetProcessHeaps
+# 3 0x77A2B64D in C:\Windows\SysWOW64\ntdll.dll!RtlCaptureContext
+# 4 0x77A2B30F in C:\Windows\SysWOW64\ntdll.dll!LdrRemoveLoadAsDataTable
+# 5 0x779E012E in C:\Windows\SysWOW64\ntdll.dll!KiUserExceptionDispatcher
+# 6 0x0041307F in C:\Users\User\Documents\GitHub\9_class\9 rkfcc 2.exe
+# 7 0x0041BC5C in C:\Users\User\Documents\GitHub\9_class\9 rkfcc 2.exe
+# 8 0x0041B6EA in C:\Users\User\Documents\GitHub\9_class\9 rkfcc 2.exe
+# 9 0x0041B5FB in C:\Users\User\Documents\GitHub\9_class\9 rkfcc 2.exe
+#10 0x00401278 in C:\Users\User\Documents\GitHub\9_class\9 rkfcc 2.exe
+#11 0x004012A0 in C:\Users\User\Documents\GitHub\9_class\9 rkfcc 2.exe
+#12 0x77A09EED in C:\Windows\SysWOW64\ntdll.dll!RtlInitializeExceptionChain
+#13 0x77A09EC0 in C:\Windows\SysWOW64\ntdll.dll!RtlInitializeExceptionChain
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library) - TXLib [Ver: 00173a, Rev: 105]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Users\User\Desktop\TX\TXLib.h
+Compiled:	Sep 13 2016 10:03:23, DEBUG, GNU g++ 4.8.1, std=201103L
+Started:	Sep 13 2016 10:03:28
+
+Run file:	C:\Users\User\Documents\GitHub\9_class\9 rkfcc 2.exe
+Directory:	C:\Users\User\Documents\GitHub\9_class
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib сообщает:
+
+Программа: C:\Users\User\Documents\GitHub\9_class\9 rkfcc 2.exe,
+
+ВНЕЗАПНО: signal (8, 0x00): SIGFPE: Грубая ошибка в вычислениях. 
+
+Недопустимая операция с плавающей точкой.
+
+Исключение EXCEPTION_FLT_INVALID_OPERATION (0xC0000090) при выполнении кода по адресу 0x00412F79. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#1: TXLib [Ver: 00173a, Rev: 105], Instance: 0x005AA7A0 (32-bit), Flags: CMdRet, Thread: 0x5B8 (Main). 
+
+--------------------------------------------------
+Трассировка стека:
+
+# 0 0x0040C026 in C:\Users\User\Documents\GitHub\9_class\9 rkfcc 2.exe
+# 1 0x0040BD78 in C:\Users\User\Documents\GitHub\9_class\9 rkfcc 2.exe
+# 2 0x77A462D9 in C:\Windows\SysWOW64\ntdll.dll!RtlGetProcessHeaps
+# 3 0x77A2B64D in C:\Windows\SysWOW64\ntdll.dll!RtlCaptureContext
+# 4 0x77A2B30F in C:\Windows\SysWOW64\ntdll.dll!LdrRemoveLoadAsDataTable
+# 5 0x779E012E in C:\Windows\SysWOW64\ntdll.dll!KiUserExceptionDispatcher
+# 6 0x0041307F in C:\Users\User\Documents\GitHub\9_class\9 rkfcc 2.exe
+# 7 0x0041BC88 in C:\Users\User\Documents\GitHub\9_class\9 rkfcc 2.exe
+# 8 0x0041B6EA in C:\Users\User\Documents\GitHub\9_class\9 rkfcc 2.exe
+# 9 0x0041B5FB in C:\Users\User\Documents\GitHub\9_class\9 rkfcc 2.exe
+#10 0x00401278 in C:\Users\User\Documents\GitHub\9_class\9 rkfcc 2.exe
+#11 0x004012A0 in C:\Users\User\Documents\GitHub\9_class\9 rkfcc 2.exe
+#12 0x77A09EED in C:\Windows\SysWOW64\ntdll.dll!RtlInitializeExceptionChain
+#13 0x77A09EC0 in C:\Windows\SysWOW64\ntdll.dll!RtlInitializeExceptionChain
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library) - TXLib [Ver: 00173a, Rev: 105]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Users\User\Desktop\TX\TXLib.h
+Compiled:	Sep 13 2016 10:04:43, DEBUG, GNU g++ 4.8.1, std=201103L
+Started:	Sep 13 2016 10:04:47
+
+Run file:	C:\Users\User\Documents\GitHub\9_class\9 rkfcc 2.exe
+Directory:	C:\Users\User\Documents\GitHub\9_class
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib сообщает:
+
+Программа: C:\Users\User\Documents\GitHub\9_class\9 rkfcc 2.exe, файл: C:\Users\User\Desktop\TX\TXLib.h, строка: 7023, функция: bool {anonymous}::TX::_txCanvas_OnDESTROY(HWND),
+
+Сообщение: Cannot lock GDI to free resources
+
+#2: TXLib [Ver: 00173a, Rev: 105], Instance: 0x005AA7A0 (32-bit), Flags: CMdrEt, Thread: 0xD58 (Canvas). 
+
+--------------------------------------------------
+Трассировка стека:
+
+# 0 0x0040C026 in C:\Users\User\Documents\GitHub\9_class\9 rkfcc 2.exe
+# 1 0x0040BD78 in C:\Users\User\Documents\GitHub\9_class\9 rkfcc 2.exe
+# 2 0x77A462D9 in C:\Windows\SysWOW64\ntdll.dll!RtlGetProcessHeaps
+# 3 0x77A2B64D in C:\Windows\SysWOW64\ntdll.dll!RtlCaptureContext
+# 4 0x77A2B30F in C:\Windows\SysWOW64\ntdll.dll!LdrRemoveLoadAsDataTable
+# 5 0x779E012E in C:\Windows\SysWOW64\ntdll.dll!KiUserExceptionDispatcher
+# 6 0x0041307F in C:\Users\User\Documents\GitHub\9_class\9 rkfcc 2.exe
+# 7 0x0041BC88 in C:\Users\User\Documents\GitHub\9_class\9 rkfcc 2.exe
+# 8 0x0041B6EA in C:\Users\User\Documents\GitHub\9_class\9 rkfcc 2.exe
+# 9 0x0041B5FB in C:\Users\User\Documents\GitHub\9_class\9 rkfcc 2.exe
+#10 0x00401278 in C:\Users\User\Documents\GitHub\9_class\9 rkfcc 2.exe
+#11 0x004012A0 in C:\Users\User\Documents\GitHub\9_class\9 rkfcc 2.exe
+#12 0x77A09EED in C:\Windows\SysWOW64\ntdll.dll!RtlInitializeExceptionChain
+#13 0x77A09EC0 in C:\Windows\SysWOW64\ntdll.dll!RtlInitializeExceptionChain
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library) - TXLib [Ver: 00173a, Rev: 105]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Users\User\Desktop\TX\TXLib.h
+Compiled:	Sep 13 2016 10:04:43, DEBUG, GNU g++ 4.8.1, std=201103L
+Started:	Sep 13 2016 10:04:47
+
+Run file:	C:\Users\User\Documents\GitHub\9_class\9 rkfcc 2.exe
+Directory:	C:\Users\User\Documents\GitHub\9_class
+
+--------------------------------------------------
